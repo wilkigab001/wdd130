@@ -1,16 +1,16 @@
 nav {
-    background-color:blue;
+    background-color:slategray;
     padding:5px;
 }
 
 nav a {
     color:white;
-    display:block;
+    display:inline;
     padding: 10px;
 }
 
 h1{
-    color:blue;
+    color:slategray;
 }
 
 main {
@@ -22,7 +22,7 @@ main img {
     height: auto;
 }
 
-p{padding: 0;}
+p {padding: 0;}
 
 aside {
     width: 50%;
