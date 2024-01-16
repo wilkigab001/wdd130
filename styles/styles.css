@@ -22,13 +22,15 @@ main img {
     height: auto;
 }
 
+p{padding: 0;}
+
 aside {
     width: 50%;
     margin: 10px;
     border: 1px solid black;
     padding: 10px;
     background-color: #eee;
-    color: #333
+    color: #333;
 }
 
 aside img {
@@ -36,7 +38,7 @@ aside img {
     height: auto;
 }
 
-p { padding: 0px;}
+
 
 footer {
     margin-top: 20px;
