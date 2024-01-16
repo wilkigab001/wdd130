@@ -13,10 +13,6 @@ h1{
     color:blue;
 }
 
-p {
-    padding : 10px;
-}
-
 main {
     max-width: 50%;
 }
@@ -41,7 +37,7 @@ aside img {
 }
 
 p{
-    padding: 0px;
+    padding: 1px;
 }
 
 footer {
