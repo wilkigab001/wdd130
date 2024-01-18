@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Indie+Flower&display=swap');
+:root {
+    --primary-color: #2b1810;
+    --secondary-color: #a57f73;
+    --accent1-color: #a9f0ec;
+    --accent2-color: #f9f9f7;
+
+    /*Fonts */
+--heading-font: 'Crimson Text', serif;
+--paragraph-font:'Indie Flower', serif;
+
+/*Additional Colors*/
+ --nav-background-color: #8eab5e;
+ --nav-link-color: #465a36;
+ --nav-hover-link-color: #f9f9f7;
+ --nav-hover-background-color: #465a36;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 15px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 30px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size:1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited{
+    color: var(--nav-link-color)
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
