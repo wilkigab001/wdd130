@@ -33,6 +33,7 @@ p {padding: 0;}
 
 aside {
     width: 50%;
+    position: relative;
 }
 
 aside img {
