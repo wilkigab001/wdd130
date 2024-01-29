@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Indie+Flower&display=swap');
+:root {
+    --primary-color: #2b1810;
+    --secondary-color: #a57f73;
+    --accent1-color: #a9f0ec;
+    --accent2-color: #f9f9f7;
+
+    /*Fonts */
+--heading-font: 'Crimson Text', serif;
+--paragraph-font:'Indie Flower', serif;
+
+/*Additional Colors*/
+ --nav-background-color: #8eab5e;
+ --nav-link-color: #465a36;
+ --nav-hover-link-color: #f9f9f7;
+ --nav-hover-background-color: #465a36;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+p {
+    padding: 30px;
+    font-family: var(--paragraph-font);
+    color: var(--secondary-color);
+}
+
+.hero {
+    position: relative;
+    width: 100%; /* Adjust as per the requirement */
+}
+
+.hero img {
+    width: 100%;
+    display: block;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 40px; /* Adjust as needed */
+    left: 40%; /* Adjust as needed */
+    color: white; /* Example color */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    max-width: 100%;
+}
+
+.hero article {
+    position: absolute;
+    top: 30%; /* Adjust as needed */
+    left: 110px; /* Adjust as needed */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    color: white; /* Example text color */
+    padding: 10px;
+    max-width: 80%; /* Adjust as needed */
+}
+
+.hero article img {
+    float: right;
+    margin-left: 10px; /* Space between text and image */
+    width: 25%;
+}
+
+.hero article p {
+    /* Additional styling for the paragraph as needed */
+}
