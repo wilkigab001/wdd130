@@ -3,13 +3,30 @@
     padding: 0;
     box-sizing: border-box;
 }
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.grid{
+    display: grid;
+    align-items: center;
+}
+
 
 nav {
     background-color:slategray;
     padding:5px;
+    display:flex;
+    justify-content: space-evenly;
+    padding: 5em;
+    align-items: center;
 }
 
 nav a {
+    display: block;
+    padding:1em;
+    text-decoration: none;
     color:white;
     display:inline;
     padding: 10px;
@@ -17,10 +34,13 @@ nav a {
 
 h1{
     color:slategray;
+    border-bottom: 1px solid black;
 }
 
 main {
     max-width: 50%;
+    grid-column: 2/3;
+    margin:1rem;
 }
 
 main img {
@@ -32,8 +52,10 @@ main img {
 p {padding: 0;}
 
 aside {
-    width: 50%;
+    width: 20rem;
     position: relative;
+    grid-column: 1/2;
+    grid-row:1/2;
 }
 
 aside img {
