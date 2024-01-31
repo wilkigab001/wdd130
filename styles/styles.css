@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 header, .grid, footer {
-    max-width: 900px;
-    margin: 10px;
+    max-width: 840px;
+    margin: 0 auto;
 }
 
 .grid{
