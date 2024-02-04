@@ -21,6 +21,50 @@
     margin: 0px;
 }
 
+header {
+    margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 500px 1fr 2fr;
+    text-align: center;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+	max-width: 100%;
+}
+
+header img {
+    max-width: 100%;
+    justify-content: space-around;
+    height: auto;
+}
+nav {
+    text-align: right;
+    border: #2b1810 1px solid;
+}
+
+.history h2{
+    width: 100%;
+    text-align: center;
+}
+.history p {
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    flex: 1 1 100%
+}
+nav a {
+    margin: 10px;
+    text-decoration: none;
+    display: block;
+    padding:20px;
+
+}
+
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
@@ -66,4 +110,24 @@ p {
     float: right;
     margin-left: 10px; /* Space between text and image */
     width: 25%;
+}
+
+
+.Images {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px; /* Adjust the gap as needed */
+    align-items: center;
+}
+ figure {
+    text-align: center;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+}
+.Images h2{
+    grid-column: span 5;
+    text-align: center;
 }
