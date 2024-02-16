@@ -131,3 +131,31 @@ figure img {
     grid-column: span 5;
     text-align: center;
 }
+
+.trips-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; /* Adjust as needed */
+}
+
+.column {
+    text-align: center; /* Optional */
+}
+
+.table-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    width: 66.67%; /* Take up 2/3 of the screen */
+    margin: 20px auto; /* Center the container horizontally */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black; /* Adjust border style as needed */
+    padding: 8px; /* Adjust padding as needed */
+}
