@@ -136,10 +136,24 @@ figure img {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px; /* Adjust as needed */
+    padding: 20px;
+}
+
+.center-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 34px;
+}
+
+.contact-tag{
+    text-decoration: none;
 }
 
 .column {
+    padding: 20px;
     text-align: center; /* Optional */
+    border: 1px solid black; 
 }
 
 .table-container {
@@ -158,4 +172,81 @@ table {
 table, th, td {
     border: 1px solid black; /* Adjust border style as needed */
     padding: 8px; /* Adjust padding as needed */
+}
+
+section {
+    padding: 20px;
+}
+
+/* Newsletter section */
+.newsletter {
+    background-color: #e6f7ff;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+.newsletter label {
+    margin-bottom: 10px;
+}
+
+.newsletter input {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.newsletter button:hover {
+    background-color: #45a049;
+}
+
+/* Call to action section */
+.cta {
+    text-align: center;
+}
+
+/* Grid layout */
+.grid-layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.grid-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+}
+
+.grid-item h3 {
+    margin-top: 0;
+}
+.headerImg{
+    width: 100%;
+    max-width: 100%;
+    margin-top: 20px;
+}
+.subHeader {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px 0;
+}
+
+.subHeaderHead {
+    margin: 0;
 }
